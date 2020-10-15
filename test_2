@@ -1,0 +1,80 @@
+// let text_layer = document.getElementById("text_layer");
+// let mainArray = [];
+// let subArray = [];
+// let text = "dont do that again";
+// let spotIcon = document.createElement("i");
+
+// for (let index = 0; index < 37; index++) {
+//   for (let index = 0; index < 10; index++) {
+//     subArray.push("i");
+//   }
+//   mainArray.push(subArray);
+// }
+// let texteara = document.createElement("textarea");
+
+// let closeIcon = document.createElement("span");
+// let holder = document.createElement("div");
+
+// closeIcon.setAttribute("id", "text");
+// closeIcon.style.position = "absolute";
+// closeIcon.style.top = "3px";
+// closeIcon.style.left = "90%";
+// closeIcon.style.color = "red";
+// closeIcon.style.cursor = "pointer";
+// closeIcon.innerHTML = `<i class="fas fa-times"></i>`;
+
+// let row = document.createElement("div");
+// mainArray.forEach((subArray) => {
+//   let cell = document.createElement("div");
+//   cell.style.display = "flex";
+//   let spot = document.createElement("div");
+//   spot.setAttribute("id", "spot");
+
+//   for (var i = 0; i < 3; i++) {
+//     for (var j = 0; j < 15; j++) {
+//       let parentDiv = document.createElement("div");
+
+//       parentDiv.style.width = "20px";
+//       parentDiv.style.height = "10px";
+//       parentDiv.style.border = "1px solid  teal";
+//       parentDiv.setAttribute("id", `spot_holder${i}${j}`);
+//       parentDiv.innerHTML = `${i}${j}`;
+//       cell.appendChild(parentDiv);
+//       parentDiv.addEventListener("dragover", (event) => {
+//         event.preventDefault();
+//       });
+//       parentDiv.addEventListener("click", () => {
+//         let id = `holder${i}${j}`;
+//         //  console.log(`holder${i}${j}`, id, document.getElementById(id));
+//         document.getElementById(`holder${i}${j}`).style.display = "block";
+//       });
+//       // holder.style.visibility = "visible";
+//       closeIcon.addEventListener("click", () => {
+//         document.getElementById(`holder${i}${j}`).style.display = "none";
+//       });
+//       parentDiv.addEventListener("drop", () => {
+//         holder.style.position = "relative";
+//         holder.setAttribute("id", `holder${i}${j}`);
+//         holder.classList.add("holder");
+//         holder.appendChild(texteara);
+//         holder.appendChild(closeIcon);
+//         // document.getElementById(`holder${i}${j}`).style.display = "none";
+//         console.log(`holder${i}${j}`, "id is seted");
+//         spot.appendChild(holder);
+//         parentDiv.appendChild(spot);
+//       });
+//     }
+
+//     row.appendChild(cell);
+//   }
+
+//   text_layer.appendChild(cell);
+// });
+
+// // document.addEventListener(
+// //   "DOMContentLoaded",
+// //   function () {
+// //     document.getElementById("spot_holder00").appendChild(spot);
+// //   },
+// //   false
+// // );

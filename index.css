@@ -1,0 +1,78 @@
+.img {
+  background-image: url("./img.jpeg");
+  width: 900px;
+  height: 542px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text_layer {
+  position: absolute;
+  max-width: 200px;
+  height: 100%;
+}
+
+#spot {
+  width: 10px;
+  height: 10px;
+
+  color: aqua;
+  border-radius: 50%;
+  cursor: grab;
+}
+
+#newSpot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  cursor: grab;
+}
+.mainPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.noteOnBord {
+  background-color: cornflowerblue;
+}
+#sideBar {
+  width: 6%;
+  height: 40vh;
+  border: 1px solid turquoise;
+  display: flex;
+  border-radius: 10px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.holder {
+  width: max-content;
+  position: relative;
+  visibility: hidden;
+}
+/* .showHolder {
+  width: max-content;
+  position: relative;
+  visibility: visible !important;
+} */
+textarea {
+  display: block;
+  box-sizing: padding-box;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(191, 250, 250, 0.7);
+}
+
+#close {
+  position: absolute;
+  top: 3px;
+  left: 90%;
+  color: red;
+  cursor: pointer;
+}

@@ -1,0 +1,102 @@
+// let text_layer = document.getElementById("text_layer");
+
+// console.log("hi out ");
+
+// let mainArray = [];
+// let subArray = [];
+
+// for (let index = 0; index < 30; index++) {
+//   for (let index = 0; index < 90; index++) {
+//     subArray.push("hi");
+//   }
+//   mainArray.push(subArray);
+// }
+
+// // text_layer.style.overflow = "hidden";
+// mainArray.forEach((subArray) => {
+//   var tbl = document.createElement("table");
+//   tbl.style.width = "20%";
+
+//   tbl.setAttribute("cellspacing", "0");
+//   tbl.setAttribute("cellpadding", "0");
+//   var tbdy = document.createElement("tbody");
+//   let cell = document.createElement("div");
+//   //   cell.setAttribute("display", "flex");
+//   cell.style.display = "flex";
+//   let row = document.createElement("div");
+//   for (var i = 0; i < 3; i++) {
+//     var tr = document.createElement("tr");
+//     tr.style.border = "0.5px solid red";
+//     for (var j = 0; j < 75; j++) {
+//       var td = document.createElement("td");
+//       td.style.border = "none";
+//       td.style.margin = "0";
+//       // let input = document.createElement("input");
+//       // input.style.width = "5px";
+//       // input.style.color = "white";
+//       //   input.style.border = "none";
+//       // input.style.outline = "none";
+//       // input.style.backgroundColor = "transparent";
+//       let div = document.createElement("div");
+//       let parentDiv = document.createElement("div");
+//       parentDiv.style.width = "auto";
+//       parentDiv.setAttribute("position", "relative");
+//       div.setAttribute("position", "absolute");
+//       div.setAttribute("top", "0");
+//       div.setAttribute("left", "10");
+//       div.style.width = "100%";
+//       div.style.height = "100%";
+//       div.style.outline = "none";
+//       div.style.color = "white";
+
+//       div.style.border = "1px solid transparent";
+//       div.setAttribute("contenteditable", true);
+//       parentDiv.appendChild(div);
+//       if (div.textContent.length != 0) {
+//         div.className += "hoverEffect";
+//         console.log("true");
+//       } else {
+//         console.log("false");
+//         div.className += "hoverEffect";
+//       }
+//       div.addEventListener("keyup", (event) => {
+//         if (event.code === "Space") {
+//           console.log("space");
+//           div.style.display = "block";
+//           console.log(div.textContent, "text");
+//           //   div.textContent.replace(/[\n\r]/g, "");
+
+//           return false;
+//         }
+//       });
+
+//       //   console.log(div.textContent, "text");
+
+//       //   td.appendChild(parentDiv);
+//       //   tr.appendChild(td);
+
+//       cell.appendChild(parentDiv);
+//     }
+//     row.appendChild(cell);
+//     // tbdy.appendChild(tr);
+//   }
+//   //   tbl.appendChild(tbdy);
+//   text_layer.appendChild(cell);
+//   subArray.forEach((el) => {
+//     // text_layer.append(tr);
+//   });
+// });
+// // document.addEventListener(
+// //   "DOMContentLoaded",
+// //   function () {
+// //     var node = document.createElement("table"); // Create a <li> node
+// //     var textnode = document.createTextNode("Water"); // Create a text node
+// //     node.appendChild(textnode); // Append the text to <li>
+// //     text_layer.appendChild(node);
+// //     // text_layer.appendChild(
+// //     //   `<p> marwa jawad good luck lsssssssssssssssssssssss</p>`
+// //     // );
+// //     // alert("Ready!");
+// //   },
+// //   false
+// // );

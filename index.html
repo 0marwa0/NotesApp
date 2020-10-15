@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"  href="./index.css"/>
+        <link rel="stylesheet" type="text/css" href="./fontawesome-free-5.15.1-web/css/all.css" />
+
+</head>
+<body>
+    <div class="mainPage">
+         <div id="sideBar">
+          <i draggable="true" id="spot" class="fas fa-map-marker-alt"></i>
+        </div>
+    
+         <div class="main">
+       
+              <div class="img">
+                <div id="text_layer">
+                    <table id="tb"  >
+
+
+                     </table>
+
+                </div>
+              </div>
+
+
+         </div>
+</div>
+    <script src="./js/pixi.main.js">
+    </script>
+
+
+<script src="./index.js">
+</script>
+
+
+
+    <!-- <script>
+        let app ;let player;
+        let text ;
+        let rect;let input;
+        window.onload = function(){
+        app=new PIXI.Application(
+            {width:500,height:500,backgroundColor:0xAAAAAA}
+        )
+         
+player = new PIXI.Sprite.from("https://res.cloudinary.com/dvxikybyi/image/upload/v1486634113/2yYayZk_vqsyzx.png")
+player.anchor.set(0.5)
+player.x = app.view.width/2
+player.y = app.view.height/2
+ app.stage.addChild(player)
+text=new PIXI.Text("marwa good luck")
+app.stage.addChild(text)
+rect=new PIXI.Graphics();
+
+// rect.beginFill(0xCC000000);
+rect.lineStyle(5, 0xFF0000);
+rect.drawRect(0,0,200,200);
+rect.endFill();
+    
+
+
+
+            input = document.createElement("input");
+            input.type = "text"
+                input.style.position = "absolute";
+                  document.body.appendChild(input);
+            input.style.top = 0;
+           input.style.left = 0;
+           input.style.width="200px";
+           input.style.height="200px";
+           input.zIndex = -1;
+        //    rect.addChild(input)
+            app.stage.addChild(rect)   
+;document.body.appendChild(app.view)
+
+                 
+
+          
+        }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+       
+    </script> -->
+</body>
+</html>
